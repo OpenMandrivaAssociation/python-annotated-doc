@@ -7,6 +7,7 @@ URL:		https://pypi.org/project/annotated_doc/
 License:	None
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(pdm-backend)
 BuildSystem:	python
 BuildArch:	noarch
 
